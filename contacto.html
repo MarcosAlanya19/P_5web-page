@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/nav.css">
+    <link rel="stylesheet" href="./assets/styles/contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav_container">
+            <h1 class="nav_logo">GOOD MORNING</h1>
+            <label for="menu" class="nav_label">
+                <img src="./assets/img/menu.svg" class="nav_img" alt="">
+            </label>
+            <input type="checkbox" id="menu" class="nav_input" >
+            <div class="nav_menu">
+                <a href="./inicio.html" class="nav_item">Inicio</a>
+                <a href="./proyectos.html" class="nav_item">Proyectos</a>
+                <a href="./contacto.html" class="nav_item">Contacto</a>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="info">
+            <div>
+                <h1 class="info_h1">CONTACTO</h1>
+                <h3 class="info_h3">¿Cuál es tu siguiente gran proyecto? Platícanos sobre él, y déjanos tus datos para comunicarnos contigo.</h3>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="form">
+            <div class="form_container">
+                <div class="form_right">
+                    <div class="form_center">
+                        <div class="form_1">
+                            <form action="">
+                                <label class="label" for="nombre">Nombre:</label><br>
+                                <input class="input" required placeholder="Nombres"  type="text" name="nombre" id="nombre"><br>
+                                <label class="label" for="empresa">Empresa:</label><br>
+                                <input class="input" required placeholder="Nombre de empresa" type="text" name="empresa" id="empresa"><br>
+                                <label class="label" for="proyect">¿Cual es tu proyecto?</label><br>
+                                <select class="input" name="proyect" id="proyect">
+                                    <option value=""></option>
+                                    <option value="">Web de venta</option>
+                                    <option value="">Blogger</option>
+                                    <option value="">Red social</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="form_2">
+                            <form action="">
+                                <label class="label" for="email">Email:</label><br>
+                                <input class="input" required placeholder="example@gmail.com" type="email" name="email" id="email"><br>
+                                <label class="label" for="cel">Celular:</label><br>
+                                <input class="input" required minlength="9" maxlength="9" type="tel" name="cel" id="cel"><br>
+                                <label class="label" for="local">¿Como nos localizaste?</label><br>
+                                <select class="input" name="local" id="local">
+                                    <option value=""></option>
+                                    <option value="">Recomendacion</option>
+                                    <option value="">Redes sociales</option>
+                                    <option value="">Otros</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="form_area_sub">
+                        <label class="label" for="comment">Deja tu comentario</label><br>
+                        <textarea class="input_area" name="comment" id="comment" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form_submit"><input class="submit" type="submit" value="ENVIAR"></div>
+                </div>
+                <div class="form_left">
+                    <h3 class="info_h3">GOOD MORNING</h3>
+                    <div>
+                        <p>Calle 4 Norte No. 16, Col. Juan Fernández Albarrán</p>
+                        <p>52169. Metepec, Estado de México</p><br>
+                    </div>
+                    <div>
+                        <a class="link" href="http://">+51 934737663</a><br>
+                        <a class="link" href="http://">asesoralanya19@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
