@@ -22,7 +22,7 @@
     color: #15536C;
     text-decoration: none;
 }
-@media(min-width: 1140px){
+@media(min-width: 992px){
     .info{
         display: flex;
         justify-content: center;
@@ -38,7 +38,6 @@
         text-decoration: none;
     }
 }
-mq
 /* FORM */
 .label{
     font-size: 20px;
@@ -96,13 +95,9 @@ mq
     background-color: #cbf4f7;
 }
 .form_area_sub{
-    padding: 1rem 2rem;
-}
-.form_submit{
     display: flex;
-    align-items: flex-start;
-    width: 93%;
-    padding: 0rem 2rem;
+    justify-content: center;
+    margin: 0.5em 0;
 }
 .form_left{
     padding: 0rem 3rem 3rem 3rem;
@@ -117,7 +112,22 @@ mq
     color: #0097ff;
     border-bottom: 2px solid ;
 }
-@media(min-width: 1140px){
+
+@media(min-width: 768px){
+    .input{
+        width: 30em;
+        height: 4em;
+    }
+    .input_area{
+        width: 30em;
+    }
+    .form_left{
+        padding: 1.5em 0.5rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media(min-width: 992px){
     .form_container{
         display: flex;
         justify-content: center;
@@ -129,6 +139,8 @@ mq
     }
     .input{
         margin: 0.5rem 1rem;
+        width: 17em;
+        height: 3.5em;
     }
     .label{
         font-size: 1.3rem;
@@ -139,9 +151,6 @@ mq
     }
     .input_area{
         width: 36em;
-    }
-    .form_submit{
-        padding: 0rem 1rem;
     }
     .form_left{
         padding: 2rem 3rem 3rem 3rem;

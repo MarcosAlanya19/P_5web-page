@@ -56,7 +56,7 @@ body{
 .nav_label,.nav_input{
     display: none;
 }
-@media(max-width: 768px){
+@media(max-width: 992px){
     .nav_logo{
         font-size: 1.5rem;
     }
